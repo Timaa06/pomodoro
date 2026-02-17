@@ -47,7 +47,12 @@ pomodoro/
 ├── public/
 │   └── vite.svg
 ├── src/
+│   ├── components/         # Composants React (ex: Timer, ConfigForm)
+│   │   └── __tests__/      # Tests des composants
 │   ├── hooks/              # Hooks custom (ex: useLocalStorage)
+│   │   └── __tests__/      # Tests des hooks
+│   ├── services/           # Services (ex: storageService pour localStorage)
+│   │   └── __tests__/      # Tests des services
 │   ├── types/              # Types TypeScript (ex: PomodoroConfig)
 │   ├── App.tsx             # Composant principal
 │   ├── index.css           # Styles globaux (import Tailwind)
