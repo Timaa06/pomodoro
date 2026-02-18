@@ -1,1 +1,20 @@
 @import "tailwindcss";
+@layer components {
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.85;
+    }
+  }
+
+  .animate-pulse-soft {
+    animation: pulse-soft 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+}
