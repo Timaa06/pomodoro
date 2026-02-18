@@ -74,7 +74,7 @@ Ajouter notifications sonores pour les pauses et les sessions
 
 Ajouter un historique des sessions
 
-Créé par Timaa06
+Créé par Fatoumata Dite Tima Sidibé 
 
 
 
